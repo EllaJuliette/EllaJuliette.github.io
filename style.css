@@ -1,0 +1,51 @@
+body {
+	background-color: #CAD2C5
+}
+h1 {
+	color: #2F3E46;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+h4 {
+	color: #354F52;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+p {
+	color: #354F52;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+li {
+	color: #354F52;
+	font-family: 'Dosis', sans-serif;
+}
+img {
+	border-color: #2F3E46;
+	border-width: medium;
+	border-style: solid;
+}
+iframe {
+	border-color: #2F3E46;
+	border-width: medium;
+	border-style: solid;
+}
+a {
+	color: #52796F;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+.center {
+
+}
+
+/*#CAD2C5- Ash Gray (background)
+#84A98C- Dark Sea Green (looks like sage)
+#52796F- Hookers green (Teal)
+#354F52- Dark Slate Gray (darker teal)
+#2F3E46- Charcoal (good text color)
+Font
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+font-family: 'Dosis', sans-serif;*/
