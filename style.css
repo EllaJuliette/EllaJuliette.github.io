@@ -17,6 +17,12 @@ p {
 	font-family: 'Dosis', sans-serif;
 	text-align: center;
 }
+.heading {
+	background-color: #84A98C;
+}
+button {
+	color: #84A98C;
+}
 li {
 	color: #354F52;
 	font-family: 'Dosis', sans-serif;
@@ -25,21 +31,40 @@ img {
 	border-color: #2F3E46;
 	border-width: medium;
 	border-style: solid;
+	border-radius: 5%;
 }
 iframe {
 	border-color: #2F3E46;
 	border-width: medium;
 	border-style: solid;
+	border-radius: 5%
 }
 a {
 	color: #52796F;
 	font-family: 'Dosis', sans-serif;
-	text-align: center;
 }
 .center {
-
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
-
+.span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    color: #2F3E46;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+}
+.circle {
+	border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #52796F;
+}
 /*#CAD2C5- Ash Gray (background)
 #84A98C- Dark Sea Green (looks like sage)
 #52796F- Hookers green (Teal)
