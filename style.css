@@ -1,5 +1,6 @@
 body {
-	background-color: #CAD2C5
+	background-color: #CAD2C5;
+	margin: 0px;
 }
 h1 {
 	color: #2F3E46;
@@ -19,19 +20,24 @@ p {
 }
 .heading {
 	background-color: #84A98C;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 button {
 	color: #84A98C;
+	height: 150%;
 }
 li {
 	color: #354F52;
 	font-family: 'Dosis', sans-serif;
 }
 img {
+	border-radius: 5%;
+}
+.border {
 	border-color: #2F3E46;
 	border-width: medium;
 	border-style: solid;
-	border-radius: 5%;
 }
 iframe {
 	border-color: #2F3E46;
@@ -47,23 +53,14 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 75%;
 }
-.span {
-    display: block;
-    height: 60px;
-    width: 60px;
-    color: #2F3E46;
-    font-size: 24px;
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
     text-align: center;
-    line-height: 30px;
-    padding: 30px;
-}
-.circle {
-	border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background: #52796F;
+    box-sizing: border-box;
 }
 /*#CAD2C5- Ash Gray (background)
 #84A98C- Dark Sea Green (looks like sage)
