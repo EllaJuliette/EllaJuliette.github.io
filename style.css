@@ -25,11 +25,14 @@ p {
 }
 button {
 	color: #84A98C;
-	height: 150%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 li {
 	color: #354F52;
 	font-family: 'Dosis', sans-serif;
+	list-style: none;
 }
 img {
 	border-radius: 5%;
