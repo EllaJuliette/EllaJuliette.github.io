@@ -52,6 +52,13 @@ a {
 	color: #52796F;
 	font-family: 'Dosis', sans-serif;
 }
+.buttoncenter {
+  width: 10%;
+}
+.linkcenter {
+    display: block;
+    text-align: center;
+}
 .center {
 	display: block;
 	margin-left: auto;
